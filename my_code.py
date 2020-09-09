@@ -2,8 +2,11 @@
 #  
 
 def factorial_calc(x):   #you may choose the name of the parameter
-
-    return    # be sure to return the factorial
+    fac = 1
+    for i in range(x):
+        i += 1
+        fac = fac * i
+    return  fac  # be sure to return the factorial
 
 
 if __name__ == '__main__':
